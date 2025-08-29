@@ -1,0 +1,91 @@
+/*  General Page Styling*/
+body {
+  margin: 0;                        
+  font-family: Arial, sans-serif;   
+  background-color: #f9f9f9;        
+  line-height: 1.6;
+}
+
+/* Header  */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;        /* Padding = space inside the header */
+  margin-bottom: 15px;  /* Margin = space outside the header */
+  border-bottom: 3px solid #00bcd4; /* Border visible under header */
+}
+
+header h1 {
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+/*  Navigation Bar  */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;      /* Margin = spacing between links */
+  padding: 5px 10px;   /* Padding = clickable area */
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #00bcd4;
+}
+
+/* Main Content */
+main {
+  margin: 20px;               /* Space outside main box */
+  padding: 15px;              /* Space inside main box */
+  background-color: white;
+  border: 2px solid #ccc;     /* Border around content */
+  border-radius: 6px;
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+p {
+  margin: 15px 0;             /* Vertical spacing */
+  padding: 10px;              /* Space inside the text box */
+  border: 1px dashed #999;    /* Border to visualize paragraph box */
+  background-color: #fdfdfd;
+}
+
+/* Button  */
+button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px 15px;   /* Enlarges button */
+  margin-top: 10px;     /* Space above button */
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+/*  Footer  */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;        /* Space inside */
+  margin-top: 20px;     /* Space above footer */
+  border-top: 3px solid #00bcd4;
+}
